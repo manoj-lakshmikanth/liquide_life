@@ -1,0 +1,9 @@
+{
+  "stock_data": [
+    { "name": "Reliance Industries", "symbol": "RELIANCE", "price": 500 },
+    { "name": "Tata Consultancy Services", "symbol": "TCS", "price": 780 },
+    { "name": "Infosys", "symbol": "INFY", "price": 1500 },
+    { "name": "HDFC Bank", "symbol": "HDFCBANK", "price": 1675 },
+    { "name": "ICICI Bank", "symbol": "ICICIBANK", "price": 1235 }
+  ]
+}

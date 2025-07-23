@@ -1,0 +1,46 @@
+.loginContainer {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 2rem;
+  /* border: 1px solid #e0e0e0; */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.loginTitle {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.inputField {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.2s;
+  background-color: rgba(0, 0, 0, 1);
+  color: #fff;
+}
+
+.inputField:focus {
+  border-color: #0070f3;
+  outline: none;
+}
+
+.login_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorMessage {
+  color: red;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+}

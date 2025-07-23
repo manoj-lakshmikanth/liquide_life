@@ -1,0 +1,42 @@
+.fabContainer {
+  position: absolute;
+  top: 300px; /* initial position */
+  left: 300px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.fabMain {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #e78932;
+  color: #000;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.actionButton {
+  position: absolute;
+  width: 100px;
+  padding: 0.6rem 1rem;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  font-size: 0.9rem;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.buy {
+  background-color: #16a34a;
+}
+
+.sell {
+  background-color: #dc2626;
+}

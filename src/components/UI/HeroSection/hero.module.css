@@ -1,0 +1,91 @@
+.hero_section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero_content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero_title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.hero_subtitle {
+  font-size: 1.125rem;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.hero_buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.primary_btn {
+  background: linear-gradient(to top, #e78932, #ffd950);
+  padding: 12px 24px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.primary_btn:hover {
+  background: linear-gradient(to top, #e78932, #ffd950);
+}
+
+.secondary_btn {
+  background-color: transparent;
+  color: #e78932;
+  padding: 12px 24px;
+  font-weight: 700;
+  border: 2px solid #e78932;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.875rem;
+  font-family: Montserrat;
+}
+
+.secondary_btn:hover {
+  background-color: #e78932;
+  color: #000;
+}
+
+.trusted_by {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.brokerage_logos {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.broker_logo {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 40px;
+  object-fit: contain;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.broker_logo:hover {
+  filter: none;
+  opacity: 1;
+}

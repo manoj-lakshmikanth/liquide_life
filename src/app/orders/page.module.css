@@ -1,0 +1,86 @@
+.orderbookContainer {
+  padding: 1.5rem;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.top_content {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.orderCard {
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  border-left: 4px solid transparent;
+  transition: 0.2s ease;
+}
+
+.orderCard:hover {
+  transform: translateY(-2px);
+}
+
+.orderHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.orderSymbol {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #e78932;
+}
+
+.orderType {
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  background-color: #e5e7eb;
+  color: #333;
+}
+
+.orderDetails p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+/* Dynamic styles for buy/sell */
+.buy .orderType {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.sell .orderType {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.buy {
+  border-left-color: #22c55e;
+}
+
+.sell {
+  border-left-color: #ef4444;
+}

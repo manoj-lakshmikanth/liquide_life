@@ -1,0 +1,48 @@
+.dashboard {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card {
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 1px solid #6d6d6d;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.stockName {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #e78932;
+  text-align: left;
+}
+
+.stockPrice {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .dashboard{
+      padding: 0rem;
+
+  }
+}

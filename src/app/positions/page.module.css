@@ -1,0 +1,91 @@
+.positionsContainer {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.top_content {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.positionCard {
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  border-left: 4px solid transparent;
+  transition: 0.2s ease;
+}
+
+.positionCard:hover {
+  transform: translateY(-2px);
+}
+
+.positionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.symbol {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.type {
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  background-color: #e5e7eb;
+  color: #333;
+}
+
+.positionDetails p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.emptyText {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+  margin-top: 2rem;
+}
+
+/* Dynamic styles */
+.long .type {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.short .type {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.long {
+  border-left-color: #22c55e;
+}
+
+.short {
+  border-left-color: #ef4444;
+}
